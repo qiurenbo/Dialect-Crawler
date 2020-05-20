@@ -1,0 +1,36 @@
+{
+  "name": "dialect-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiurenbo/Dialect-Crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiurenbo/Dialect-Crawler/issues"
+  },
+  "homepage": "https://github.com/qiurenbo/Dialect-Crawler#readme",
+  "dependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/mkdirp": "^1.0.0",
+    "@types/node": "^14.0.1",
+    "@types/puppeteer": "^3.0.0",
+    "@types/request": "^2.48.5",
+    "mkdirp": "^1.0.4",
+    "puppeteer": "^3.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.1",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.2"
+  }
+}
